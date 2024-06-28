@@ -15,6 +15,6 @@ module.exports = defineConfig({
     },
       experimentalSessionAndOrigin: true,
     
-    specPattern: 'cypress/integration/examples/Test1.js'
+    specPattern: 'cypress/integration/examples/*.js'
   },
   });
