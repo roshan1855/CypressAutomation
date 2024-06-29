@@ -1,21 +1,17 @@
-name: Run Cypress Test
+name: Cypress Tests
 
-on: [push]
+on: push
 
 jobs:
-  install:
-    runs-on: ubuntu-latest
+  cypress-run:
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-      - name: Install modules
-        uses: npi ci
-
-      - name: Cypress
-        uses: cypress-io/github-action@v3
+        uses: actions/checkout@v4
+      # Install npm dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
         with:
-          browser: chrome
-          headless: true
-          start: npm run dev
-          wait-on: "http://localhost:3000"
-
+          build: npm run build
+          start: npm start
