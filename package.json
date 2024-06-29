@@ -8,6 +8,7 @@
     "headTest": "npm run test -- --headed",
     "edgeTest": "npm run test-- --browser edge",
     "recordDashBoardTest": "npm run test -- --record --key 87f3b719-5c18-4061-b4ae-b22d96a108c1 --reporter mochawesome",
+    "cy:cloud": "cypress run -- --record --key b10bd62e-dd74-41b5-b974-82c9d1ccb4b0",
     "test8": "npx cypress run --spec \"cypress/integration/MultipleTest/*.js\""
   },
   "author": "",
