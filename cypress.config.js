@@ -1,4 +1,4 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   defaultCommandTimeout: 6000,
@@ -18,4 +18,5 @@ module.exports = defineConfig({
     
     specPattern: 'cypress/integration/MultipleTest/*.js'
   },
-  });
+})
+

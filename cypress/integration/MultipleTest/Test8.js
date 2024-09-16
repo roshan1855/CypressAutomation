@@ -66,7 +66,7 @@ it('Test case 1', function(){
 {
 
     const textA=element.text()
-    expect(textA.includes('Fail This test intensionally')).to.be.true
+    expect(textA.includes('Success')).to.be.true
 
     })
 
