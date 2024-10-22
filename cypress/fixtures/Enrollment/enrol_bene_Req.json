@@ -1,0 +1,89 @@
+{
+  "effectiveDate": "2024-03-01",
+  "qualifyingEvent": "56",
+  "qualifyingEventDate": "2024-02-01",
+  "memberList": [
+    {
+      "addressList": [],
+      "alternateIDList": [
+        {
+          "alternateIDType": "QC",
+          "alternateID": "42278620000"
+        }
+      ],
+      "correlationID": "",
+      "demographics": {
+        "birthDate": "",
+        "gender": "",
+        "nameFirst": "",
+        "nameLast": "",
+        "nameMiddle": "",
+        "nameSuffix": "",
+        "preferredCommMethodType": "",
+        "socialSecurityNumber": "",
+        "ssnNotProvidedReasonType": "",
+        "maritalStatus": ""
+      },
+      "memberAffiliation": {
+        "employBeginDate": "2024-02-01",
+        "employStatusCode": "",
+        "relationshipCode": "18",
+        "memGroupID": "1048476",
+        "billGroupList": [
+          {
+            "billGroupReferenceID": "101",
+            "effectiveDate": "2024-03-01",
+            "expirationDate": "2024-11-30",
+            "coverageOptionType": "MD"
+          },
+          {
+            "billGroupReferenceID": "101",
+            "effectiveDate": "2024-12-01",
+            "expirationDate": "",
+            "coverageOptionType": "MD"
+          }
+        ],
+        "memberCustomAttributeList": [],
+        "populationList": [],
+        "effectiveDate": "2024-03-01",
+        "continuation": {
+          "qualifyingEventDate": "",
+          "qualifyingEventType": "",
+          "continuationEffectiveDate": "",
+          "continuationExpirationDate": ""
+        }
+      },
+      "phoneList": [],
+      "ecommList": [],
+      "languageList": [],
+      "cobList": [],
+      "indicatorsList": [],
+      "memberCoverageList": [
+        {
+          "benPlanEffDate": "2024-03-01",
+          "benefitStatusCode": "A",
+          "coverageOptionID": "17633947",
+          "coverageOptionType": "MD",
+          "PHSDivisionCode": "",
+          "PHSCompanyNumber": "",
+          "benPlanExpDate": null,
+          "qualifyingEvent": "56",
+          "qualifyingEventDate": "2024-02-01"
+        },
+        {
+          "benPlanEffDate": "2024-12-01",
+          "benefitStatusCode": "A",
+          "coverageOptionID": "17633947",
+          "coverageOptionType": "MD",
+          "PHSDivisionCode": "",
+          "PHSCompanyNumber": "",
+          "benPlanExpDate": null,
+          "qualifyingEvent": "56",
+          "qualifyingEventDate": "2024-02-01"
+        }
+      ],
+      "providerList": []
+    }
+  ],
+  "transactionType": "ADD"
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "affiliationExternalID": "42278620000",
+    "memGroupID": "1048476",
+    "requestedEffectiveDate": "2024-02-01",
+    "transID": "8153CA7B-9F94-4787-861F-327D36D32C93"
+  },
+  "messages": [
+    {
+      "code": "STS0605",
+      "message": "Record(s) successfully resubmitted for processing",
+      "type": "SUCCESS"
+    }
+  ],
+  "memberIdentitiesMap": {
+    "c5641351-606b-46f4-a65e-00f31b581b3c": {
+      "memberId": "42278620000"
+    }
+  }
+}

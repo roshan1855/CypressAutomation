@@ -1,0 +1,50 @@
+{
+  "effectiveDate": "2024-03-01",
+  "platform": "",
+  "transactionType": "ADD",
+  "qualifyingEvent": "",
+  "memberList": [
+    {
+      "addressList": [
+        {
+          "address1": "onsi prvah",
+          "address2": "xiyqph",
+          "addressType": "HOM",
+          "city": "Los Angeles",
+          "country": "US",
+          "postalCode": "90001",
+          "state": "CA"
+        }
+      ],
+      "correlationID": "",
+      "demographics": {
+        "birthDate": "1971-08-16",
+        "gender": "M",
+        "nameFirst": "sxwxyk",
+        "nameLast": "wlwagob",
+        "nameMiddle": "CypressMid",
+        "nameSuffix": "",
+        "preferredCommMethodType": "",
+        "socialSecurityNumber": "741909307",
+        "ssnNotProvidedReasonType": "",
+        "maritalStatus": ""
+      },
+      "memberAffiliation": {
+        "effectiveDate": "2024-03-01",
+        "employBeginDate": "2024-02-01",
+        "employStatusCode": "",
+        "memGroupID": "1048476",
+        "relationshipCode": "18",
+        "memberDirectBillingInd": false,
+        "memberCustomAttributeList": [],
+        "subscriberSSN": "",
+        "phsCompanyNumber": ""
+      },
+      "phoneList": [],
+      "ecommList": [],
+      "languageList": [],
+      "cobList": [],
+      "indicatorsList": []
+    }
+  ]
+}

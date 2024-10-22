@@ -1,11 +1,14 @@
 const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
+  chromeWebSecurity: false,
   defaultCommandTimeout: 6000,
   reporter: 'cypress-mochawesome-reporter',
   //projectId: "sp124a",
   projectId: "3ve4fq",
+
   env : {
+    stg: "https://uhceservices-stg.optum.com/",
     url: "https://rahulshettyacademy.com"
     //url1: "https://google.com"
   },
@@ -16,7 +19,7 @@ module.exports = defineConfig({
     },
       experimentalSessionAndOrigin: true,
     
-    specPattern: 'cypress/integration/examples/*.js'
+    specPattern: 'cypress/integration/BnE1/*.js'
   },
 })
 

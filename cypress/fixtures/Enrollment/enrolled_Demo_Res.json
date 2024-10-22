@@ -1,0 +1,24 @@
+{
+  "messageList": [
+    {
+      "data": {
+        "correlationID": "1f104743-82cb-420f-ad96-b8110de26bd4",
+        "holdStatus": false,
+        "memberID": "42278620000"
+      },
+      "messages": [
+        {
+          "code": "STS0001",
+          "message": "Member: Member ID: 330011066955: Record(s) added.",
+          "type": "SUCCESS"
+        },
+        {
+          "code": "STS0001",
+          "message": "Subscriber Job Information: Subscriber Job ID: 2213380884: Record(s) added.",
+          "type": "SUCCESS"
+        }
+      ]
+    }
+  ],
+  "transactionID": "380C8F2D-4C02-44BF-BEFE-F3C1DB2BBFCD"
+}
